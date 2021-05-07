@@ -5,7 +5,7 @@ import { useState } from "react";
 import "tailwindcss/tailwind.css";
 import Header from "./components/Header";
 import InputForms from "./components/InputForms";
-import Panel from "./components/panel";
+import Panel from "./components/Panel";
 
 export default function Home() {
   const [inputText, setInputText] = useState("");

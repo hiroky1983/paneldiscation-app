@@ -8,6 +8,7 @@ export default function Panel(props) {
         {themes.map((theme, index) => {
           return (
             <div key={theme}>
+              <p>i</p>
               <li>
                 <div class="bg-white p-6 shadow-lg rounded-lg flex justify-between items-center mx-6 my-1">
                   <div className="flex">
