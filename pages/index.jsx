@@ -3,9 +3,9 @@ import { useState } from "react";
 
 // import styles from "../styles/Home.module.css";
 import "tailwindcss/tailwind.css";
-import Header from "./components/Header";
-import InputForms from "./components/InputForms";
-import Panel from "./components/Panel";
+import Header from "./Header";
+import InputForms from "./InputForms";
+import Panel from "./Panel";
 
 export default function Home() {
   const [inputText, setInputText] = useState("");
